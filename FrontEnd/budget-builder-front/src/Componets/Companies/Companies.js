@@ -168,8 +168,8 @@ const Companies = (props) => {
           <div className="table-responsive mt-5">
            { createCompany===true || updateCompany===true?
            (<div>
-              <button onClick={handleFormBack}> Go Back</button>
               <form className="inputs">
+              <div className='submit-container'><button onClick={handleFormBack} className='submit'> Go Back</button></div>
               <label>Company name</label>
             <div className="input">
                 <input value={formData.name} type="text" name="name" id="" placeholder='Company name' onChange={handleChange}/>

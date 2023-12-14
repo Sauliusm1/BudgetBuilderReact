@@ -193,7 +193,7 @@ const handleSubmitDepartments = (e) => {
                 <><Button variant='warning' onClick={() => handleShowPurchases(true)} className="HeaderButton">View purchases</Button>
                   <Modal show={showPurchases} onHide={handleClosePurchases} centered backdrop="static">
                     <Modal.Header closeButton>
-                      <Modal.Title>Insert Comapany Id</Modal.Title>
+                      <Modal.Title>Insert Comapany and Department Id</Modal.Title>
                     </Modal.Header>
                     <Modal.Body>          <Form>
                       <Form.Group className="mb-3" controlId="ControlInput1">

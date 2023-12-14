@@ -161,8 +161,8 @@ const Departmets = (props) => {
             <div className="table-responsive mt-5">
             {createDepartment===true || updateDepartment === true?(
             <div>
-            <button onClick={handleFormBack}> Go Back</button>
             <form className="inputs">
+            <div className='submit-container'><button onClick={handleFormBack} className='submit'> Go Back</button></div>
             <label>Department name</label>
           <div className="input">
               <input value={formData.name} type="text" name="name" id="" placeholder='Department name' onChange={handleChange}/>

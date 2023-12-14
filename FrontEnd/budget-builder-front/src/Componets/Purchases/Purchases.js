@@ -183,8 +183,9 @@ const Purchases = (props) => {
            
             {createPurchase===true || updatePurchase===true?(
             <div>
-              <button onClick={handleFormBack}> Go Back</button>
+
               <form className="inputs">
+              <div className='submit-container'><button onClick={handleFormBack} className='submit'> Go Back</button></div>
               <label>Purchase name</label>
             <div className="input">
                 <input value={formData.name} type="text" name="name" id="" placeholder='Purchase name' onChange={handleChange}/>
