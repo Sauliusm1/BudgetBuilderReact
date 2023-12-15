@@ -103,7 +103,7 @@ const Departmets = (props) => {
         })
         .catch((error) => {
             console.log(error);
-            alert("You do not have sufficient permissions to perform this action");
+            alert("The information you entered is not correct");
         });
 };
     function getDepartments(companyId){
